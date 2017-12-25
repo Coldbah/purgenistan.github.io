@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: url(../img/bg.jpg) no-repeat center;
+}
+.box-size {
+  width: 48px;
+  height: 48px;
+  font-size: 0;
+  border: 1pt solid #939393;
+}
+.box-items {
+  margin-top: 287px;
+  margin-bottom: 287px;
+  text-align: center;
+}
+.box-items__list {
+  font-size: 0;
+}
+.box-item {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  font-size: 0;
+  border: 1pt solid #939393;
+  background-color: #110e7c;
+}
+.box-item:hover {
+  background-color: #15129c;
+}
+.box-item__2 {
+  background-color: #d1e3ec;
+}
+.box-item__2:hover {
+  background-color: #eaf2f6;
+}
+.box-item__3 {
+  background-color: #3db8f5;
+}
+.box-item__3:hover {
+  background-color: #5fc4f7;
+}
